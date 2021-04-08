@@ -2,9 +2,114 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Mi pagina de prueba</title>
+    <title>Mi primer HTML</title>
+      
   </head>
   <body>
-    <img src="images/firefox-icon.png" alt="Mi imagen de prueba">
+    <header>
+      <h1>Mi primera página web</h1>
+      <b style="color:red" onclick="cambiarColor(this.parentNode)"><h6>UTPL</h6></b>
+      
+    </header>
+      <nav>
+        <ul>
+          <li><a href= "#">Inicio</a></li>
+          <li><a href= "#">Quienes somos</a></li>
+          <li><a href= "#">Productos</a></li>
+        </ul>
+        <p>Procedimientos</p>
+        <ol>
+          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, dolores eum veritatis beatae doloremque quidem, recusandae quae cum ducimus, dolorem sunt. Nihil odio earum dolore officia mollitia repudiandae perferendis delectus?</li>
+          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae temporibus atque totam neque tenetur exercitationem modi enim cumque nulla molestiae, facilis, eius natus. Praesentium consequatur asperiores fuga architecto vitae maiores?</li>
+        </ol>
+        <table class="default">
+
+          <tr>
+        
+            <th scope="row">Día</th>
+        
+            <th>Hoy</th>
+        
+            <th>Mañana</th>
+        
+            <th>Domingo</th>
+        
+          </tr>
+        
+          <tr>
+        
+            <th>Condición</th>
+        
+            <td>Soleado</td>
+        
+            <td>Mayormente soleado</td>
+        
+            <td>Parcialmente nublado</td>
+        
+          </tr>
+        
+          <tr>
+        
+            <th>Temperatura</th>
+        
+            <td>19°C</td>
+        
+            <td>17°C</td>
+        
+            <td>12°C</td>
+        
+          </tr>
+        
+          <tr>
+        
+            <th>Vientos</th>
+        
+            <td>E 13 km/h</td>
+        
+            <td>E 11 km/h</td>
+        
+            <td>S 16 km/h</td>
+        
+          </tr>
+        
+        </table>
+      </nav>
+      <div>
+        <section>
+          <article>
+            <h2>Texto de prueba</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias debitis autem doloremque incidunt officiis voluptatum ratione libero impedit fugit dolorum, voluptate molestiae laborum cum repellat expedita laboriosam suscipit! Nemo, debitis?</p>
+            <img src="img/html.png" alt="logo HTML" width="20%">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quo, officiis ipsum numquam, officia hic nulla nihil deleniti reprehenderit, cum qui? Minima ut corrupti debitis molestias quisquam, consequuntur iusto provident!</p> 
+              
+                <a>Ver mas</a>
+          </article>
+        </section>
+        <aside>
+          Aside
+        </aside>
+      </div>
+      <footer>
+        Footer
+      </footer>
+      <iframe width="420" height="315"
+      src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
+      </iframe>
+      <form action="../form-result.php" target="_blank">
+
+        <p>Ingresa tu nombre completo: <input type="text" name="nombrecompleto"></p>
+      
+        <p>
+      
+          Deja un mensaje:<br>
+      
+          <textarea name="mensaje"></textarea>
+      
+        </p>
+      
+        <input type="submit" value="Enviar la información">
+      
+      </form>
+      
   </body>
 </html>
